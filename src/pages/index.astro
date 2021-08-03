@@ -25,13 +25,13 @@ let title = 'Eliseʻs Astro Site';
 </style>
 
 <BaseLayout title={title}>
-        <header>
-            <div>
-                <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
-                <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-            </div>
-        </header>
-
+    <header>
+        <div>
+            <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
+            <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
+        </div>
+    </header>
+    <main>
         <h2>Elise has made a custom starter!</h2>
 
         <p>This builds upon the starter (generic) that comes with <code>astro init</code> and adds:</p>
@@ -40,12 +40,6 @@ let title = 'Eliseʻs Astro Site';
             <li>A base head with all the minimal required head elements</li>
             <li>A title prop thhat can be set on any page and has a default that can be set in the base layout</li>
         </ul>
-        <!--
-           - You can also use imported framework components directly in your markup!
-           -
-           - Note: by default, these components are NOT interactive on the client.
-           - The `:visible` directive tells Astro to make it interactive.
-           -
-           - See https://docs.astro.build/core-concepts/component-hydration/ 
-           -->
+    </main>
+       
 </BaseLayout>
